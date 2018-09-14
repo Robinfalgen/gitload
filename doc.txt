@@ -1,0 +1,3 @@
+endpoint http://localhost:8888/php/API/uppgift3/posts jobbar med metoder POST och GET. Plural posts hämtar all befintlig data utan unika id, get hämtar alla inlägg, post publicerar ett nytt inlägg som får unikt id i databasen
+
+endpoint http://localhost:8888/php/API/uppgift3/post jobbar med metoder PUT och DELETE. Post jobbar med unikt id som skickas med $_GET['key'] för att ta bort och updatera unika id i tabelen.
